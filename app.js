@@ -12,8 +12,8 @@ function renderProjects(filter='all'){
  for(const p of projects){
   const card=document.createElement('article');card.className='project-card'+(p.featured?' featured':'')+(p.status==='coming-soon'?' coming':'');
   const btn=document.createElement('button');btn.className='project-button';btn.type='button';btn.setAttribute('aria-label','عرض تفاصيل '+p.title);btn.addEventListener('click',()=>openProject(p));
-  const poster=document.createElement('div');poster.className='project-poster';const bg=palettes[(p.id-1)%palettes.length];poster.style.background=bg;if(bg==='#242723')poster.style.color='#eee9df';
-  const top=document.createElement('div');top.className='poster-top';top.append(text('span',String(p.id).padStart(2,'0')+' / 13','poster-no'),text('span',english[p.category],'poster-type'));
+  const poster=document.createElement('div');poster.className='project-poster';const bg=p.poster||palettes[(p.id-1)%palettes.length];poster.style.background=bg;const lum=parseInt(bg.slice(1,3),16)*.299+parseInt(bg.slice(3,5),16)*.587+parseInt(bg.slice(5,7),16)*.114;if(lum<140)poster.style.color='#eee9df';
+  const top=document.createElement('div');top.className='poster-top';top.append(text('span',String(p.id).padStart(2,'0')+' / 14','poster-no'),text('span',english[p.category],'poster-type'));
   const title=text('div',p.title,'poster-title'+(p.title.length>22?' long':'')+(!/[\u0600-\u06ff]/.test(p.title)?' latin':''));
   const bottom=document.createElement('div');bottom.className='poster-bottom';bottom.append(text('span','↗','poster-action'),text('span',statuses[p.status]||p.status,'status'));
   const num=text('span',String(p.id).padStart(2,'0'),'poster-index');num.setAttribute('aria-hidden','true');
