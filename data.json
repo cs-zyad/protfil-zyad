@@ -17,12 +17,36 @@
       "icon": "✅",
       "status": "active",
       "url": "https://apps.apple.com/sa/app/id6811328062?l=ar",
+      "image": "images/projects/mahami.jpg",
       "tech": [
         "React Native",
         "JavaScript",
         "Supabase",
         "LLM API",
         "App Store"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "صناع المشهد",
+      "desc": "موقع رسمي لفريق «صناع المشهد» الإعلامي في جدة، يعرض خدمات التصوير والمونتاج والتصميم وكتابة المحتوى بهوية بصرية سينمائية بالكحلي والذهبي. واجهة عربية متجاوبة بسلايدر أعمال بصري ومسار واضح لطلب المشاريع.",
+      "longDesc": "صناع المشهد فريق إعلامي من جدة يجمع التصوير والمونتاج والتصميم وكتابة المحتوى، وهذا الموقع واجهته الرسمية أمام العملاء. شعار الفريق: «لنصنع كل مشهد».\n\n• هيرو سينمائي بسلايدر صور من أعمال الفريق الحقيقية\n• أقسام لرسالة الفريق وخدماته وأعماله وأعضائه\n• هوية بصرية موحّدة بالكحلي الداكن والذهبي تعكس طابع الإنتاج المرئي\n• مسار واضح للتواصل وطلب المشاريع عبر «ابدأ مشروعك»\n• تصميم عربي من اليمين لليسار متجاوب مع الجوال والكمبيوتر\n\nالموقع منشور على Vercel.",
+      "tags": [
+        "Web",
+        "Branding",
+        "Media"
+      ],
+      "category": "web",
+      "featured": false,
+      "color": "#1b2a4d",
+      "status": "active",
+      "url": "https://scene-makers-three.vercel.app/",
+      "image": "images/projects/scene.jpg",
+      "tech": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Vercel"
       ]
     },
     {
@@ -41,6 +65,7 @@
       "icon": "🎓",
       "status": "in-progress",
       "url": "https://t7sele.vercel.app/",
+      "image": "images/projects/t7sele.jpg",
       "tech": [
         "React",
         "Next.js",
@@ -64,6 +89,7 @@
       "icon": "💡",
       "status": "active",
       "url": "https://clab-ryadh1.vercel.app/",
+      "image": "images/projects/clab.jpg",
       "tech": [
         "React",
         "Firebase",
@@ -88,6 +114,7 @@
       "icon": "🎨",
       "status": "active",
       "url": "https://cs-zyad.github.io/EIDCard-main/",
+      "image": "images/projects/eid.jpg",
       "tech": [
         "HTML",
         "CSS",
@@ -111,6 +138,7 @@
       "icon": "🎬",
       "status": "active",
       "url": "https://cs-zyad.github.io/Media-Club1/",
+      "image": "images/projects/media.jpg",
       "tech": [
         "HTML",
         "CSS",
@@ -133,125 +161,14 @@
       "color": "#8B6F47",
       "icon": "🎨",
       "status": "active",
-      "url": "https://aistudio.google.com/apps/dbb0b5dd-4df1-4bb0-9673-5ff25aba46e3?showPreview=true&showAssistant=true",
+      "url": null,
       "tech": [
         "Google AI Studio",
         "n8n",
         "Canva",
         "Automation"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "واجهة تك",
-      "desc": "هوية بصرية كاملة لمنصة عقارية سعودية بعناصر ثلاثية الأبعاد وألوان الهوية الوطنية السعودية. تصميم يعكس الطابع المعماري السعودي الحديث.",
-      "longDesc": "واجهة تك هي هوية بصرية متكاملة لمنصة عقارية سعودية تجمع بين الأصالة والحداثة:\n\n• تصميم ثلاثي الأبعاد يعكس الطابع المعماري السعودي\n• ألوان مستوحاة من الهوية الوطنية السعودية\n• عناصر بصرية متكاملة تشمل الشعار والأيقونات والقوالب\n• تجربة مستخدم تراعي السوق العقاري السعودي",
-      "tags": [
-        "Branding",
-        "3D",
-        "UI/UX"
       ],
-      "category": "design",
-      "featured": false,
-      "color": "#6B5B73",
-      "icon": "🏗️",
-      "status": "active",
-      "url": null,
-      "tech": [
-        "Figma",
-        "3D Design",
-        "Branding"
-      ]
-    },
-    {
-      "id": 8,
-      "title": "مجتمع KAU",
-      "desc": "منصة أحداث جامعية تجمع الفعاليات والأندية والتقويم الأكاديمي. تم تصميم ثلاث نسخ لصفحة تسجيل الدخول مع تكرار تصميمي وتغذية راجعة نقدية.",
-      "longDesc": "مجتمع KAU هي منصة أحداث جامعية شاملة لجامعة الملك عبدالعزيز:\n\n• جمع الفعاليات والأندية والتقويم الأكاديمي في مكان واحد\n• تصميم ثلاث نسخ مختلفة لصفحة تسجيل الدخول\n• تطبيق منهجية التكرار التصميمي مع تغذية راجعة نقدية\n• مبنية على Figma مع prompts متقدمة\n\nالمشروع يُظهر القدرة على تطبيق منهجيات التصميم الاحترافية.",
-      "tags": [
-        "UI/UX",
-        "Figma",
-        "Web"
-      ],
-      "category": "web",
-      "featured": false,
-      "color": "#4A6741",
-      "icon": "🏛️",
-      "status": "active",
-      "url": null,
-      "tech": [
-        "Figma",
-        "UI/UX Research",
-        "Prototyping"
-      ]
-    },
-    {
-      "id": 9,
-      "title": "Front Line Agency",
-      "desc": "موقع ويب كامل وملفات تقديم احترافية لوكالة إعلانية. يشمل تصميم الموقع والهوية البصرية وملف Word للتقديم.",
-      "longDesc": "مشروع متكامل لوكالة إعلانية يشمل:\n\n• تصميم وتطوير موقع ويب كامل وعصري\n• إنشاء هوية بصرية شاملة للوكالة\n• إعداد ملفات تقديم احترافية بتنسيق Word\n• توحيد الرسالة البصرية عبر جميع القنوات",
-      "tags": [
-        "Web",
-        "Branding",
-        "Design"
-      ],
-      "category": "web",
-      "featured": false,
-      "color": "#5A3D6E",
-      "icon": "📢",
-      "status": "active",
-      "url": null,
-      "tech": [
-        "Web Development",
-        "Graphic Design",
-        "Branding"
-      ]
-    },
-    {
-      "id": 10,
-      "title": "نظام إدارة المهام الذكي",
-      "desc": "نظام متكامل عبر Telegram وGoogle Sheets وn8n Cloud، يعتمد على Gemini API لتصنيف المهام وفق مصفوفة أيزنهاور مع أزرار تأكيد تفاعلية.",
-      "longDesc": "نظام إدارة مهام ذكي يجمع بين عدة تقنيات:\n\n• بوت Telegram تفاعلي لإدخال وإدارة المهام\n• ربط مع Google Sheets لتخزين وتنظيم البيانات\n• أتمتة عبر n8n Cloud لمعالجة المهام\n• Gemini API لتصنيف المهام ذكياً وفق مصفوفة أيزنهاور\n• أزرار تأكيد تفاعلية لتحديث حالة المهام\n\nالنظام يُظهر القدرة على بناء حلول أتمتة متكاملة.",
-      "tags": [
-        "Automation",
-        "AI",
-        "Telegram"
-      ],
-      "category": "automation",
-      "featured": false,
-      "color": "#5A6B3D",
-      "icon": "⚡",
-      "status": "active",
-      "url": null,
-      "tech": [
-        "n8n Cloud",
-        "Telegram Bot API",
-        "Google Sheets",
-        "Gemini API"
-      ]
-    },
-    {
-      "id": 11,
-      "title": "مشروع MNIST - COCS 446",
-      "desc": "مشروع أكاديمي متقدم باستخدام PyTorch على مجموعة بيانات MNIST مع ضبط Hyperparameters عبر 32 تجربة مختلفة في التعلم العميق.",
-      "longDesc": "مشروع أكاديمي متقدم في مقرر COCS 446:\n\n• بناء نموذج تعلم عميق باستخدام PyTorch\n• تدريب على مجموعة بيانات MNIST\n• ضبط Hyperparameters عبر 32 تجربة مختلفة\n• تحليل النتائج ومقارنة أداء النماذج\n• توثيق شامل للمنهجية والنتائج\n\nالمشروع يُظهر الفهم العميق لمفاهيم التعلم العميق وتحسين النماذج.",
-      "tags": [
-        "AI",
-        "PyTorch",
-        "Deep Learning"
-      ],
-      "category": "ai",
-      "featured": false,
-      "color": "#6E3D5A",
-      "icon": "🧠",
-      "status": "active",
-      "url": null,
-      "tech": [
-        "PyTorch",
-        "Python",
-        "Jupyter",
-        "MNIST"
-      ]
+      "image": "images/projects/draak.jpg"
     },
     {
       "id": 12,
@@ -273,7 +190,8 @@
         "Python",
         "AI",
         "Innovation"
-      ]
+      ],
+      "image": "images/projects/mutawwir.jpg"
     },
     {
       "id": 13,
@@ -296,7 +214,8 @@
         "Dart",
         "Supabase",
         "Python"
-      ]
+      ],
+      "image": "images/projects/car.jpg"
     },
     {
       "id": 14,
@@ -319,7 +238,8 @@
         "Dart",
         "Computer Vision",
         "Python"
-      ]
+      ],
+      "image": "images/projects/fitness.jpg"
     }
   ],
   "experience": [
